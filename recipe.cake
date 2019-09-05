@@ -8,7 +8,8 @@ BuildParameters.SetParameters(context: Context,
                             title: "Cake.Talend",
                             repositoryOwner: "RadioSystems",
                             repositoryName: "Cake.Talend",
-                            appVeyorAccountName: "RadioSystems");
+                            appVeyorAccountName: "RadioSystems",
+                            shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 

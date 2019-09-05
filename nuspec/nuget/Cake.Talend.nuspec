@@ -7,18 +7,19 @@
     <owners>RadioSystems</owners>
     <description>Cake Addin for working with Talend Command Line and Metaservlet API from a Cake script.</description>
     <summary>A set of aliases for Cake to help with running Talend Command Line as part of a build.</summary>
-    <licenseUrl>https://github.com/RadioSystems/Cake.Talend/blob/master/LICENSE</licenseUrl>
+    <license type="expression">Apache-2.0</license>
+    <repository type="git" url="https://github.com/RadioSystems/Cake.Talend.git"/>
     <projectUrl>https://github.com/RadioSystems/Cake.Talend</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) RadioSystems 2017 - Present</copyright>
     <tags>Cake, Script, Build, Talend, Addin</tags>
   </metadata>
   <files>
-    <file src="Cake.Talend.dll" target="lib\net45" />
-    <file src="Cake.Talend.pdb" target="lib\net45" />
-    <file src="Cake.Talend.xml" target="lib\net45" />
-    <file src="RestSharp.dll" target="lib\net45" />
+    <file src="Cake.Talend.dll" target="lib\net461" />
+    <file src="Cake.Talend.pdb" target="lib\net461" />
+    <file src="Cake.Talend.xml" target="lib\net461" />
+    <file src="RestSharp.dll" target="lib\net461" />
     <file src="content/TalendSettings.cake" />
   </files>
 </package>
